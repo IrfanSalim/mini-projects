@@ -1,0 +1,21 @@
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace, arial, helvetica;
+}   
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    height: 600px;
+    width: 300px;
+    border: seagreen solid 1px;
+    border-radius: 10px;
+}
