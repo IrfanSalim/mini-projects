@@ -37,6 +37,7 @@ h1 {
     flex: 0.5;
     margin: 10px;
     position: relative;
+    transition: all 700ms ease-in;
     -webkit-transition: all 700ms ease-in;
 }
 
