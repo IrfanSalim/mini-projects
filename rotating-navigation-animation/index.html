@@ -3,15 +3,67 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+            integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+            crossorigin="anonymous" />
         <link rel="stylesheet" href="styles.css" />
         <title>Rotating Animation</title>
     </head>
     <body>
         <div class="container">
-            <div class="menu-container"></div>
-            <div class="main-content"></div>
+            <div class="menu-container">
+                <div class="circle">
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="content">
+                <h1>Amazing Offices</h1>
+                <small>Irfan Salim</small>
+                <p>
+                    Amazon’s largest corporate building in the world is located in Hyderabad, India. The HYD13 Campus is Amazon’s first owned office
+                    building outside of the U.S. The building construction was completed in a record time of 39 months. Built on approximately 9.7
+                    acres, the campus has a total area of 3 million sq. ft. The 282-foot-tall building can house more than 15,000 employees and
+                    features agile workspaces, including casual, collaborative venues and private areas for concentration and confidentiality. Each
+                    floor of the office has a theme, making it a welcoming workspace for all.
+                </p>
+                <h2>Amazon’s office at Hyderabad</h2>
+                <img
+                    alt="Amazon HYD13"
+                    src="https://assets.aboutamazon.com/dims4/default/1240b8b/2147483647/strip/true/crop/800x451+0+175/resize/660x372!/format/webp/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F19%2Ff1%2F525133aa489f9bc07b9b9e257677%2Fhyd-amazon-office-800x800.jpg" />
+                <h3>Highlights of this site:</h3>
+                <ul>
+                    <li>2,700 cafeteria seating capacity</li>
+                    <li>Vehicle parking: 2,500 for four-wheelers and 3,700 for two-wheelers</li>
+                    <li>290 conference rooms</li>
+                    <li>PWD designed floors</li>
+                    <li>49 elevators, which can move at a speed of almost 1 floor per second, accommodating up to 500 people at a time</li>
+                    <li>
+                        Site amenities include mother’s rooms, phone booths, locker rooms, quiet room, recreation room, interfaith room, wellness
+                        rooms, mailroom and inclusive restrooms for employees
+                    </li>
+                </ul>
+            </div>
         </div>
-        <nav></nav>
-        <script type="text/javascript" src="scripts.js"></script>
+        <nav>
+            <ul>
+                <li>
+                    <a target="_blank" href="https://www.aboutamazon.in/workplace/corporate-offices"><i class="fas fa-home"></i> Know more</a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://www.amazon.in/"><i class="fas fa-user-alt"></i> Shop on Amazon</a>
+                </li>
+                <li>
+                    <a target="_blank" href="mailto:irfansalim77@gmail.com"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
+        </nav>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 </html>
