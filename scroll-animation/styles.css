@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #efedd6;
+    background-color: #c68dd4;
     font-family: "Roboto", sans-serif;
     display: flex;
     flex-direction: column;
@@ -20,18 +20,29 @@ h1 {
 }
 
 .box {
-    background-color: steelblue;
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    flex-direction: column;
+    width: 600px;
+    height: 300px;
     margin: 10px;
     border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    backdrop-filter: blur(10px);
     box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
     transform: translateX(400%);
     transition: transform 0.4s ease;
+}
+
+.box-content {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.2); /* Optional: Add a semi-transparent background color for readability */
 }
 
 .box:nth-of-type(even) {
@@ -42,6 +53,17 @@ h1 {
     transform: translateX(0);
 }
 
-.box h2 {
-    font-size: 45px;
+.box h3 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.box a {
+    font-style: italic;
+    color: #ffffff;
+}
+
+.box a:active {
+    color: #ffffff;
 }
