@@ -40,3 +40,47 @@ body {
     max-width: 100%;
     width: 800px;
 }
+
+button {
+    cursor: pointer;
+    height: 3rem;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    margin: 5px auto;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+    padding: 14px 40px;
+    color: #fff;
+    font-size: 16px;
+    max-width: 100%;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+h3 {
+    margin: 0;
+    opacity: 0.5;
+    letter-spacing: 2px;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.joke {
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    margin: 50px auto;
+    max-width: 600px;
+}
